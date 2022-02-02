@@ -10,7 +10,7 @@ export default function ItemCard(props) {
         />
         <h2>${props.about}</h2>
         <button>
-            Details
+        {props.details}
         </button>
     </div>
   );

@@ -1,5 +1,6 @@
 import Login from './components/Login';
 import './App.css';
+import Footer from "./components/Footer";
 import Home from './components/Home';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Login />
       <Home />
+      <Footer />
     </div>
   );
 }
