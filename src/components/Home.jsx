@@ -2,12 +2,12 @@ import React from "react";
 import ItemList from './ItemList'
 
 export default function Homepage() {
-    return (
+  return (
+  <div>
     <div>
-        <div>
-          <h1>Dishes Menu</h1>
-        </div>
-        <ItemList/>
+      <h1>Dishes Menu</h1>
     </div>
-    );
+    <ItemList/>
+  </div>
+  );
 };
