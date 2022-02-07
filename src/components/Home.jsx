@@ -1,13 +1,13 @@
 import React from "react";
 import ItemList from './ItemList'
+import Footer from './Footer';
 
 export default function Homepage() {
   return (
-  <div>
     <div>
-      <h1>Dishes Menu</h1>
-    </div>
-    <ItemList/>
+    <h1>Dishes Menu</h1>
+    <ItemList />
+    <Footer/>
   </div>
   );
 };
